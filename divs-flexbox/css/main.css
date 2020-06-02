@@ -124,8 +124,11 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color:cornflowerblue;
   height: 300px;
+  text-align: center;
+  border: .5em;
+  padding: .5em;
 }
 
 
