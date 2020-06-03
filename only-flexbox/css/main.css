@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: white;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -106,20 +106,23 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: white;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: cornflowerblue;
   height: 80px;
   width: 100%;
+  text-align: left;
+  font-size: 3em;
 }
 
 main {
   background-color: #ccc;
   height: 250px;
   width: 100%;
+  font-size: 2em;
 }
 
 header,
@@ -128,6 +131,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
 }
 
@@ -162,12 +166,13 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: cornflowerblue;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
 
 /* ==========================================================================
