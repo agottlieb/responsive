@@ -87,6 +87,69 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------------- Base Header - Footer Styles -------------------- */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* -------------------- Mobile Styles - Homepage -------------------- */
+
+/* Statement Area */
+
+.statement-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.about .about-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Work */
+
+.work {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +323,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
