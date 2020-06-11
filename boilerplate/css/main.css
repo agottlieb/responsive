@@ -124,6 +124,7 @@ header nav {
   flex-flow: row wrap;
   width: 60%;
 }
+
 header nav ul {
   display: flex;
   justify-content: space-around;
@@ -289,38 +290,82 @@ footer .copyright {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-   @media only screen and (min-width:768px) {
-    /*Tablet styles here*/
+   @media only screen and (min-width: 768px) {
+       /* General styles */
+       .content-wrapper {
+           max-width: 640px;
+           margin: 100px 0;
+       }
 
-    /* General styles */
-    .content-wrapper {
-      max-width: 640px;
-      margin: 100px 0;
-    }
+       /* Header */
 
-    /* Header */
-    header {
-      justify-content: space-around;
-      padding: 33px 0;
-    }
+       header {
+         justify-content: space-around;
+         padding: 33px 0;
+       }
 
-    header .content-wrapper {
-      width: 100%;
-      justify-content: space-between;
-    }
+       header .content-wrapper {
+         width: 100%;
+         justify-content: space-between;
+       }
 
-    header nav {
-      width: 20%;
-    }
+       header nav {
+         width: 20%;
+       }
 
-    header nav ul {
-      justify-content: space-around;
-    }
+       header nav ul {
+         justify-content: space-between;
+       }
 
-    .header-divider {
-      display: none;
-    }
+       .header-divider {
+           display: none;
+       }
 
+       /* Statement Area */
+       statement-area .content-wrapper {
+           margin: 50px 0;
+       }
+
+       /* About*/
+
+       .about p {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-flow: column wrap;
+         flex-basis: 50%;
+       }
+
+       .about .about-items {
+         width: 50%;
+       }
+
+
+       /* Footer */
+       footer .content-wrapper {
+           width:
+           margin: 100px 0;
+       }
+
+       .footer-content {
+
+       }
+
+       footer .contact {
+           margin-bottom: 0;
+       }
+
+       footer .copyright {
+           width:
+       }
+   }
+
+   @media print,
+   (-webkit-min-device-pixel-ratio: 1.25),
+   (min-resolution: 1.25dppx),
+   (min-resolution: 120dpi) {
+     /* Style adjustments for high resolution devices */
+   }
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
