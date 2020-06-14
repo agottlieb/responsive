@@ -362,11 +362,11 @@ footer .copyright {
          justify-content: center;
          align-items: center;
          flex-flow: column wrap;
-         flex-basis:50%;
+         flex-basis: 50%;
        }
 
        .work .skills-items {
-         width: 50%;
+         width: 100%;
        }
        /* Footer */
        footer .content-wrapper {
