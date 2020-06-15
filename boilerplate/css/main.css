@@ -95,30 +95,38 @@ textarea {
 
    body {
           font-family: 'Source Sans Pro', sans-serif;
+          font-size: 1em;
+          text-align: left;
    }
 
    ul,
    ol {
-
+     list-style-type: none;
    }
 
    a {
-
+     color: #e2e3ed;
+     text-decoration: none;
    }
 
    h1 {font-family: 'Cinzel', serif;
    }
 
-   h2 {
+   h2 {  font-family: 'Cinzel', sans-serif;
+     font-size: 1.875em;
 
    }
 
    h3,
    h4 {
-
+     font-family: 'Cinzel', sans-serif;
+     margin: 20px 0;
+     font-size: 1.125em;
    }
 
-   p { font-family: 'Source Sans Pro', sans-serif;
+   p {
+   font-size: .875em;
+   line-height: 1.285;
 
    }
 
@@ -131,7 +139,7 @@ textarea {
    }
 
    address {
-
+      font-style: normal;
    }
    .content-wrapper {
      width: 90%;
