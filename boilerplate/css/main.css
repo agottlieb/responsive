@@ -285,6 +285,11 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.work i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .work p {
   margin: 0;
 }
