@@ -459,8 +459,25 @@ footer .copyright {
            margin-bottom: 0;
        }
 
+       footer .social-icons {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+       }
+
+       footer .social-icons p {
+         width: 40px;
+         height: 40px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+
+       footer .social-icons p i {
+         font-size: 1.3125em;
+       }
        footer .copyright {
-        width: 100%;
+        
        }
 
    @media only screen and (min-width: 1000px) {
