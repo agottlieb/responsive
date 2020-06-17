@@ -135,11 +135,10 @@ textarea {
 
    }
 
-   img {
-
+   img { width: 100%;
    }
 
-   figure {
+   figure { margin: 0;
 
    }
 
@@ -184,7 +183,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
+  width: 75%;
   font-weight: 700;
 }
 
@@ -241,6 +240,7 @@ footer .copyright {
   justify-content: center;
   flex-flow: row wrap;
 }
+
 /* About */
 
 .about {
@@ -400,7 +400,7 @@ footer .copyright {
        }
 
        header nav {
-         width: 40%;
+         width: 50%;
        }
 
        header nav ul {
@@ -415,7 +415,13 @@ footer .copyright {
        statement-area .content-wrapper {
            margin: 50px 0;
        }
-
+       .statement-area {
+         display: flex;
+         justify-content: space-between;
+       }
+       .statement-area figure {
+         width: 20%;
+       }
        /* About*/
 
        .about p {
@@ -477,7 +483,7 @@ footer .copyright {
          font-size: 1.3125em;
        }
        footer .copyright {
-        
+
        }
 
    @media only screen and (min-width: 1000px) {
