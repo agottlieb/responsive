@@ -413,7 +413,7 @@ footer .copyright {
 
        /* Statement Area */
 
-       .statement-area content-wrapper {
+       .statement-area .content-wrapper {
          display: flex;
          justify-content: space-between;
        }
