@@ -412,13 +412,17 @@ footer .copyright {
        }
 
        /* Statement Area */
-       statement-area .content-wrapper {
-           margin: 10px 0;
-           display: flex;
-           justify-content: space-between;
-           flex-flow: row wrap;
-       }
 
+       .statement-area content-wrapper {
+         display: flex;
+         justify-content: space-between;
+       }
+       .statement-area h1 {
+         width: 45%;
+       }
+       .statement-area figure {
+         width: 45%;
+       }
        /* About*/
 
        .about p {
@@ -492,6 +496,7 @@ footer .copyright {
         /* Statement */
        .statement-area h1 {
           width: 60%;
+
        }
 
        /* About*/
