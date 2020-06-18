@@ -383,7 +383,7 @@ footer .copyright {
    @media only screen and (min-width: 768px) {
        /* General styles */
        .content-wrapper {
-           max-width: 640px;
+           max-width: 760px;
            margin: 100px 0;
        }
 
@@ -488,7 +488,7 @@ footer .copyright {
    @media only screen and (min-width: 1000px) {
    /*Desktop styles here */
        .content-wrapper {
-            max-width: 960px;
+            max-width: 1000px;
        }
 
         /* Statement */
