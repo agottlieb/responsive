@@ -135,7 +135,7 @@ textarea {
 
    }
 
-   img { width: 100%;
+   img { max-width: 100%;
    }
 
    figure { margin: 0;
@@ -418,10 +418,9 @@ footer .copyright {
        .statement-area {
          display: flex;
          justify-content: space-between;
-       }
-       .statement-area figure {
-         width: 20%;
-       }
+         flex-flow: row wrap;
+   }
+
        /* About*/
 
        .about p {
@@ -506,7 +505,11 @@ footer .copyright {
        .work-items p {
            width: 90%;
        }
-
+       .work .skills-items {
+         display: flex;
+         justify-content: center;
+         align-items: flex-start;
+       }
        .skills-items article {
            flex-basis: 25%;
        }
